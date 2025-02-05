@@ -1,6 +1,26 @@
-<h1 align="center">🎮 Búsqueda del Tesoro: Juego de Aventura 🎮</h1> <p align="center"> Este proyecto recrea un simple juego de aventura donde el usuario debe moverse por una cuadrícula en busca de un tesoro oculto. El usuario puede moverse en cuatro direcciones (arriba, abajo, izquierda y derecha), excavar para encontrar el tesoro, y recibir información sobre el estado del juego en cada paso. </p>
-<h2>🚀 Características principales</h2> <h3>🗺️ Movimiento y Exploración</h3> <ul> <li><strong>Movimiento:</strong> El jugador puede moverse por la cuadrícula usando las teclas <code>W</code>, <code>A</code>, <code>S</code>, <code>D</code> para subir, bajar, mover a la izquierda o a la derecha, respectivamente.</li> <li><strong>Exploración del entorno:</strong> El juego muestra la ubicación actual del jugador en la cuadrícula, junto con las coordenadas. Cada movimiento se refleja visualmente en el tablero.</li> <li><strong>Ciclo de juego:</strong> El jugador puede seguir moviéndose y buscando el tesoro hasta que lo encuentre o decida salir.</li> </ul> <h3>🏆 Descubriendo el Tesoro</h3> <ul> <li><strong>Excavar:</strong> El jugador puede excavar en su ubicación actual con la tecla <code>E</code> para verificar si ha encontrado el tesoro.</li> <li><strong>Objetivo:</strong> El jugador gana el juego al encontrar el tesoro, que está oculto en una coordenada aleatoria de la cuadrícula.</li> </ul> <h3>🔄 Interfaz y Lógica</h3> <ul> <li><strong>Actualización en tiempo real:</strong> La cuadrícula y la posición del jugador se actualizan cada vez que el jugador realiza una acción.</li> <li><strong>Limpieza de la consola:</strong> Se simula la limpieza de la consola para mejorar la visualización del juego mediante la impresión de líneas en blanco.</li> </ul>
-<h2>🧩 Características adicionales</h2> <ul> <li><strong>Coordenadas del tesoro:</strong> El tesoro tiene una ubicación aleatoria en la cuadrícula y el jugador debe encontrarla antes de que decida salir.</li> <li><strong>Interacciones secretas:</strong> Al pulsar <code>M</code>, el jugador puede ver las coordenadas del tesoro, lo que sirve para depuración o desarrollo.</li> <li><strong>Final del juego:</strong> El juego termina cuando el jugador encuentra el tesoro o elige salir.</li> </ul>
-<h2>🌐 Cómo jugar</h2> <p>Ejecuta el código y sigue las instrucciones en consola para moverte y explorar. ¡Buena suerte en tu búsqueda del tesoro!</p>
+# 🎮 Treasure Hunt Adventure Game 🎮
 
-Este es un juego simple pero entretenido de aventura donde el jugador navega a través de una cuadrícula en busca de un tesoro oculto. Ideal para aprender conceptos básicos de programación y manejo de coordenadas en un entorno visual basado en consola.
+This project recreates a simple adventure game where the player must move across a grid to find a hidden treasure. The player can move in four directions (up, down, left, right), dig to find the treasure, and receive information about the game status at each step.
+
+## 🚀 Main Features
+
+### 🗺️ Movement and Exploration
+- **Movement**: The player can move across the grid using the keys `W`, `A`, `S`, `D` to move up, down, left, or right, respectively.
+- **Environment Exploration**: The game displays the current position of the player on the grid, along with the coordinates. Each movement is visually reflected on the board.
+- **Game Cycle**: The player can keep moving and searching for the treasure until they find it or decide to exit.
+
+### 🏆 Finding the Treasure
+- **Digging**: The player can dig at their current location by pressing the `E` key to check if they have found the treasure.
+- **Objective**: The player wins the game by finding the treasure, which is hidden at a random coordinate on the grid.
+
+### 🔄 Interface and Logic
+- **Real-Time Update**: The grid and the player's position are updated every time the player performs an action.
+- **Console Cleaning**: The console is simulated to clear, improving the game's visual representation by printing blank lines.
+
+## 🧩 Additional Features
+- **Treasure Coordinates**: The treasure is located at a random coordinate on the grid, and the player needs to find it before they decide to quit.
+- **Secret Interaction**: By pressing the `M` key, the player can view the coordinates of the treasure, useful for debugging or development purposes.
+- **Game End**: The game ends when the player finds the treasure or chooses to quit.
+
+## 🌐 How to Play
+Run the code and follow the instructions in the console to move and explore. Good luck on your treasure hunt!

@@ -24,3 +24,5 @@ This project recreates a simple adventure game where the player must move across
 
 ## 🌐 How to Play
 Run the code and follow the instructions in the console to move and explore. Good luck on your treasure hunt!
+
+Note: the code is in Spanish.
